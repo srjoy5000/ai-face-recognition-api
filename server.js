@@ -22,7 +22,11 @@ const db = knex({
 const app = express()
 
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: "https://srjoy5000.github.io/ai-face-recognition/",
+    methods: ["POST", "PUT"],
+    credentials: true
+}));
 
 app.get('/', (req, res) => { res.send('connection success') })
 
