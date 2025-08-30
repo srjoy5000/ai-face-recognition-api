@@ -1,6 +1,6 @@
-const PAT = '46595bce7ea54e3ca101f5068c4f9f31';
-const USER_ID = 'wiqd7xgtljgo';
-const APP_ID = 'face-detector';
+const PAT = process.env.CLARIFAI_API;
+const USER_ID = process.env.CLARIFAI_USER_ID;
+const APP_ID = process.env.CLARIFAI_APP_ID;
 const MODEL_ID = 'face-detection';
 const MODEL_VERSION_ID = '6dc7e46bc9124c5c8824be4822abe105';
 // const IMAGE_URL = 'https://samples.clarifai.com/metro-north.jpg'; // image placeholder
