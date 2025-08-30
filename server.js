@@ -45,6 +45,7 @@ app.post('/imageurl', (req, res) => { image.callAPI(req, res) })
 const PORT = process.env.PORT
 app.listen(PORT, () => {
     console.log(`App is running successfully on PORT ${PORT}!`)
+    console.log("DATABASE_URL:", process.env.DB_URL);
 })
 
 
