@@ -23,7 +23,6 @@
 
 - Node.js v18+
 - PostgreSQL database (local or hosted, e.g. Supabase / Render)
-- [Clarifai](https://clarifai.com) account for face-detection API keys
 
 ### Setup
 
